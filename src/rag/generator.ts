@@ -30,7 +30,7 @@ export async function generateAnswer(
   if (config.mockLlm) {
     const top = chunks[0];
     return (
-      `[Mock mode] Based on "${top.filename}", here is a summary relevant to your question:\n\n` +
+      `[Mock mode] Based on "${top.filename}", here is a summary relevant to your query:\n\n` +
       `${top.content.slice(0, 400)}${top.content.length > 400 ? "..." : ""}`
     );
   }

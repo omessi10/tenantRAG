@@ -75,7 +75,7 @@ Context passed to the LLM is sanitized (strip pseudo-system tags, neutralize inj
 | Cosine similarity | Standard for normalized embeddings | Hybrid BM25 + vector |
 | Sync ingestion | Assignment scope | Background job queue (BullMQ) |
 | Pattern-based guardrails | Fast, explainable | LLM classifier moderation layer |
-| No auth (baseline) | Faster evaluation | JWT + tenant claim binding |
+| No auth (baseline) | Fast evaluation | JWT + tenant claim binding |
 
 ## Operational Notes
 

@@ -166,7 +166,10 @@ See [ARCHITECTURE.md](./ARCHITECTURE.md) for design details.
 npm test
 ```
 
-## Environment Variables
+Requires Docker for Postgres
+Set OPENAI_API_KEY in .env for real answers, or MOCK_LLM=true for demo mode
+
+## Environment Variables 
 
 | Variable | Default | Description |
 |----------|---------|-------------|
